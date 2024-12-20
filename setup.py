@@ -13,7 +13,7 @@ def _read(f):
 
 
 setup(
-    name="simple-data-flow",
+    name="simple_data_flow",
     description="This library provides basic building blocks for creating and executing simple workflows.",
     long_description=(
         _read('DESCRIPTION.rst') + b'\n' +
@@ -33,7 +33,7 @@ setup(
         "simflow",
     ],
     install_requires=[
-        "configurable-objects",
+        "configurable_objects",
     ],
     version="0.0.1",
     author='Peter "fracpete" Reutemann',
